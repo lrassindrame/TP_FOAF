@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="foaf-to-html.xsl"?>
+
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
   
   <foaf:Person>
@@ -8,8 +11,10 @@
     <foaf:homepage rdf:resource="http://www.leorassindrame.x10.mx"/>
     <foaf:img rdf:resource="http://www.leorassindrame.x10.mx/photo.jpg"/>
     <foaf:knows>
-      <foaf:Person>
-        <foaf:name>Leo Rassindrame</foaf:name>
+      <foaf:Person rdf:about="https://m2-lr-jd.x10.mx/foaf.rdf">
+        <foaf:name>DERAMAIX Julien</foaf:name>
+        <foaf:mbox rdf:resource="mailto:julien40.der@gmail.com"/>
+        <foaf:homepage rdf:resource="https://m2-lr-jd.x10.mx/"/>
       </foaf:Person>
     </foaf:knows>
   </foaf:Person>
